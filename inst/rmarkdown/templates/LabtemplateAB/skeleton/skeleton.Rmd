@@ -2,6 +2,9 @@
 title: "Lab template AB"
 author: "Alex Beaver"
 date: "`r format(Sys.time(), '%d %B %Y')`"
+mail: "abeaver3@jhmi.edu"
+twitter: "ABeavR"
+github: "ABeav"
 output:
   pdf_document:
     toc: yes
