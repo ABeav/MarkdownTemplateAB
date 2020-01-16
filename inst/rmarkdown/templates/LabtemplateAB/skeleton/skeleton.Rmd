@@ -1,0 +1,62 @@
+---
+title: "Lab template AB"
+author: "Alex Beaver"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output:
+  pdf_document:
+    toc: yes
+    fig_caption: True
+    df_print: kable
+  html_document:
+    css: style.css
+    includes:
+      after_body: footer.html
+    code_folding: hide
+    number_sections: False
+    theme: flatly
+    toc: yes
+    toc_float: yes
+editor_options:
+  chunk_output_type: inline
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<br><br><br><br>
+
+> State the goal/summary of this documemt.
+
+<br><br><br><br>
+
+# Introduction
+***
+
+# Experiment {.tabset .tabset-fade .tabset-pills}
+***
+
+## Protocol 1
+
+(tab content)
+
+## Protocol 2
+
+(tab content)
+
+# Data
+***
+
+# Analysis
+***
+
+# Conclusions
+***
+
+<br><br><br><br>
+
+***
+
+```{r, Session Info, echo=FALSE}
+sessionInfo()
+```
