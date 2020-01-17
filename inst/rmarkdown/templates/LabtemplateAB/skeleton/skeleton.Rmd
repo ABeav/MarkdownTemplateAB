@@ -7,9 +7,9 @@ twitter: "ABeavR"
 github: "ABeav"
 output:
   html_document:
-    css: RmdResouces/style.css
+    css: RmdResources/style.css
     includes:
-      after_body: RmdResouces/footer.html
+      after_body: RmdResources/footer.html
     code_folding: hide
     number_sections: False
     theme: flatly
