@@ -6,19 +6,19 @@ mail: "abeaver3@jhmi.edu"
 twitter: "ABeavR"
 github: "ABeav"
 output:
-  pdf_document:
-    toc: yes
-    fig_caption: True
-    df_print: kable
   html_document:
-    css: style.css
+    css: RmdResouces/style.css
     includes:
-      after_body: footer.html
+      after_body: RmdResouces/footer.html
     code_folding: hide
     number_sections: False
     theme: flatly
     toc: yes
     toc_float: yes
+  pdf_document:
+    toc: yes
+    fig_caption: True
+    df_print: kable
 editor_options:
   chunk_output_type: inline
 ---
